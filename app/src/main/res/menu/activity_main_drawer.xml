@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/login"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_agregar_parcela"
+            android:icon="@drawable/parcela"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_ver_parcela"
+            android:icon="@drawable/parcela"
+            android:title="@string/VerParcela" />
+        <item
+            android:id="@+id/nav_agregar_aji"
+            android:icon="@drawable/aji"
+            android:title="@string/agregar_aji" />
+        <item
+            android:id="@+id/nav_ver_aji"
+            android:icon="@drawable/aji"
+            android:title="@string/ver_aji" />
+        <item
+            android:id="@+id/nav_temporada"
+            android:icon="@drawable/temporada"
+            android:title="@string/temporada" />
+        <item
+            android:id="@+id/nav_tratamiento"
+            android:icon="@drawable/tratamiento"
+            android:title="@string/tratamiento" />
+    </group>
+</menu>
